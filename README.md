@@ -37,8 +37,8 @@
     - Para ejecutable "bison_parser" en la terminal lo hacemos con el comando (time ./bison_parser) para que podramos tener el tiempo de ejecución.
     - Importante: Los ejecutables con sus comandos se trabajan desde cada carpeta.
   3. **INTERACCIÓN**
-    - **CYK** dada la cadena nos va informar si es valida o no es valida y su tiempo.
-    - **BISON** dada la cadena nos va informar si es valida o no es valida y su tiempo.
+    - "CYK" Dada la cadena nos va informar si es valida o no es valida y su tiempo.
+    - "BISON" Dada la cadena nos va informar si es valida o no es valida y su tiempo.
   4. **RESULTADOS**
     - La diferencia y comparacion de tiempo la podemos ver en el porcentaje de la CPU.
 
