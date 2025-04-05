@@ -1,0 +1,36 @@
+#ifndef CYK_H
+#define CYK_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+
+// Estructura para una regla de producción en CNF
+typedef struct {
+    char left; // No terminal a la izquierda
+    char right1; // No terminal o terminal a la derecha (primer símbolo)
+    char right2; // No terminal a la derecha (segundo símbolo, puede ser '\0' si es una regla unitaria o terminal)
+    bool is_terminal; // Indica si la regla es de la forma A -> a
+} Production;
+
+// Estructura para la gramática
+typedef struct {
+    int num_productions;
+    Production *productions;
+} Grammar;
+
+// Definición del tamaño máximo para la entrada y el número de no terminales (ajusta según tu necesidad)
+#define MAX_INPUT_LENGTH 100
+#define MAX_NON_TERMINALS 26 // Asumiendo no terminales de la A a la Z
+
+// Estructura para representar el conjunto de no terminales en una celda de la tabla CYK
+typedef struct {
+    int count;
+    char non_terminals[MAX_NON_TERMINALS];
+} NonTerminalSet;
+
+bool add_non_terminal(NonTerminalSet *set, char nt);
+bool contains_non_terminal(const NonTerminalSet *set, char nt);
+
+#endif
