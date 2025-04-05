@@ -32,5 +32,15 @@
     - Para bison asegurate de tener BISON instalado y compilador para C como en este caso GCC.
     - Programas ejecutables como en este caso. (CYK) y (bison_parser)
  2. **EJECUCIÓN**.
-    - 
+    - Abre una terminal y navega al directorio donde guardaste los archivos (CYK) Y (bison_parser); para "CYK" la carpeta es "cyk_implementation" y para "bison_parser" la carpeta es "cyk_bison_comp".
+    - Para ejecutable "CYK" en la terminal lo hacemos con el comando (time ./cyk) para que podramos tener el tiempo de ejecución.
+    - Para ejecutable "bison_parser" en la terminal lo hacemos con el comando (time ./bison_parser) para que podramos tener el tiempo de ejecución.
+    - Importante: Los ejecutables con sus comandos se trabajan desde cada carpeta.
+  3. **INTERACCIÓN**
+    - **CYK** dada la cadena nos va informar si es valida o no es valida y su tiempo.
+    - **BISON** dada la cadena nos va informar si es valida o no es valida y su tiempo.
+  4. **RESULTADOS**
+    - La diferencia y comparacion de tiempo la podemos ver en el porcentaje de la CPU.
+
+
 Comparación.
