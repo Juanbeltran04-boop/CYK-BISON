@@ -42,5 +42,3 @@
  4. **RESULTADOS**.
     - La diferencia y comparacion de tiempo la podemos ver en el porcentaje de la CPU.
 
-
-Comparación.
