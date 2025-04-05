@@ -18,13 +18,13 @@
 - Generación de Código en Múltiples Lenguajes: Originalmente diseñado para generar código en C, las versiones modernas de Bison también pueden generar código en C++ y Java, lo que lo hace versátil para diferentes entornos de desarrollo.
 
 # REQUISITOS.
--Sistema Operativo Linux.(CYK)(BISON)
--Ejecutable del Programa CYK.(CYK)
--Permisos de Ejecución.(CYK)
--Compilador de C/C++ (típicamente GCC o Clang).(BISON)
--El programa ejecutable generado.(BISON)
--Permisos de Ejecución.(BISON)
--Archivos de Entrada para el Programa Generado.(BISON)
+- Sistema Operativo Linux.(CYK)(BISON)
+- Ejecutable del Programa CYK.(CYK)
+- Permisos de Ejecución.(CYK)
+- Compilador de C/C++ (típicamente GCC o Clang).(BISON)
+- El programa ejecutable generado.(BISON)
+- Permisos de Ejecución.(BISON)
+- Archivos de Entrada para el Programa Generado.(BISON)
 
 
 
